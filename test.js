@@ -2,7 +2,7 @@
 abi = [	{'constant': false,'inputs': [{'name': '_message','type': 'string'}],'name': 'sendMessage','outputs': [],'payable': false,'stateMutability': 'nonpayable','type': 'function'},{'constant': true,'inputs': [],'name': 'readMessage','outputs': [{'name': '','type': 'string'}],'payable': false,'stateMutability': 'view','type': 'function'}]
 VotingContract = web3.eth.contract(abi);
 // In your nodejs console, execute contractInstance.address to get the address at which the contract is deployed and change the line below to use your deployed address
-contractInstance = VotingContract.at('0x9a740465Ac6A2Ef11e3b10BeE5249825f5B8Dedd');
+contractInstance = VotingContract.at('0xdee2bd7b778fe8f32ec8403ac50a688552875ec0');
 //candidates = {'Alice': 'candidate-1', 'Bob': 'candidate-2', 'Candy': 'candidate-3'}
 
 function sendMessage() {
