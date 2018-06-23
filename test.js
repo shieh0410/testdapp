@@ -22,4 +22,4 @@ function sendMessage() {
   //setTimeout(loop,1000);
 
 //}
-loop()
+//loop()
