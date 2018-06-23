@@ -7,7 +7,7 @@ contractInstance = VotingContract.at('0xdee2bd7b778fe8f32ec8403ac50a688552875ec0
 
 function sendMessage() {
   text = $('#message').val();
-  contractInstance.sendMessage(text, {from: web3.eth.accounts[0]}, 
+  contractInstance.sendMessage(text, {from: web3.eth.accounts[0]},);
  //   function() {
 
  //   });
